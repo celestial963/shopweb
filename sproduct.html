@@ -77,7 +77,7 @@
     </section>
 
     <section id="product1" class="section-p1">
-      <h2>New Arrivals</h2>
+      <h2>Featured Products</h2>
       <p>Summer Collection New Mordern Design</p>
       <div class="pro-container">
         <div class="pro">
@@ -206,6 +206,26 @@
         <p>201 Tech Home</p>
       </div>
     </footer>
+
+    <script>
+      var MainImg = document.getElementById("MainImg");
+      var smallimg = document.getElementsByClassName("small-img");
+
+      smallimg[0].onclick = function () {
+        MainImg.src = smallimg[0].src;
+      };
+      smallimg[1].onclick = function () {
+        MainImg.src = smallimg[1].src;
+      };
+
+      smallimg[2].onclick = function () {
+        MainImg.src = smallimg[2].src;
+      };
+
+      smallimg[3].onclick = function () {
+        MainImg.src = smallimg[3].src;
+      };
+    </script>
 
     <script src="script.js"></script>
   </body>
